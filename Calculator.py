@@ -9,7 +9,7 @@ def mul(a,b):
     ans=a*b
     print("ans=",ans)
 
-def mul(a,b):
+def div(a,b):
     ans=a/b
     print("ans=",ans)
     
@@ -24,25 +24,23 @@ while True:
            print("code for sub")
            fn=int(input("Enter First Number:"))
            sn=int(input("Enter Second Number:"))
-           add(fn,sn)
+           sub(fn,sn)
 
     elif ch==3:
            print("code for mul")
            fn=int(input("Enter First Number:"))
            sn=int(input("Enter Second Number:"))
-           add(fn,sn)
+           mul(fn,sn)
 
     elif ch==4:
            print("code for div")
            fn=int(input("Enter First Number:"))
            sn=int(input("Enter Second Number:"))
-           add(fn,sn)
+           div(fn,sn)
 
     elif ch==5:
            print("code for exit")
            break
     else:
         print("Invalid choice")
-
-
 
